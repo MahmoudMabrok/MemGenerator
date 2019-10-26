@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Set the opacity of an element" type="Insert">
+  <code><![CDATA[.opacity
+{
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+]]></code>
+</snippet>

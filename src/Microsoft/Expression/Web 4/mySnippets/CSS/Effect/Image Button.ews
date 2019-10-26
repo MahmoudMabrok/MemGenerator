@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Make a button look like a image" type="Insert">
+  <code><![CDATA[.imageButton
+{
+	width: 54px; /* Width of image button */
+	height: 26px;/* Height of image button */
+	padding: 0;
+	margin: 0;
+	border: 1;
+	background:url(images/Tulips.jpg);
+	overflow:hidden;
+	cursor:pointer; /* hand-shaped cursor */
+}
+]]></code>
+</snippet>

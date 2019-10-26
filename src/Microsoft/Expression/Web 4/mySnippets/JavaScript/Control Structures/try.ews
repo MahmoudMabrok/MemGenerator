@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript try catch statement" type="Wrap">
+  <code><![CDATA[try {
+    
+]]></code>
+  <codeAfter><![CDATA[} catch (exception) {
+   
+}]]></codeAfter>
+</snippet>

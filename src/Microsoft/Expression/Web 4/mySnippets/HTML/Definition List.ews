@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Markup for a definition" type="Insert">
+  <code><![CDATA[<dl>
+	<dt>@@keyword@@</dt>
+	<dd>@@definition@@</dd>
+</dl>]]></code>
+</snippet>

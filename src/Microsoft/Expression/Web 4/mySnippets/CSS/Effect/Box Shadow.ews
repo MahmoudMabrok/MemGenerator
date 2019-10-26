@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Box shadow" type="Insert">
+  <code><![CDATA[.boxShadow
+{
+	-webkit-box-shadow: 1px 1px 3px gray, -1px -1px gray;
+	-moz-box-shadow: 1px 1px 3px gray,-1px -1px gray;
+	box-shadow: 1px 1px 3px gray, -1px -1px gray;
+}
+]]></code>
+</snippet>

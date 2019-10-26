@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="If you want to display a tooltip, just add the class &quot;tooltip&quot; to a element and write your Tooltip Text in a span tag within that element" type="Insert">
+  <code><![CDATA[.tooltip span
+{
+	display:none;
+}
+.tooltip:hover span
+{
+	display:inline; 
+	position:absolute;
+	background:white;
+	border:1px solid silver; 
+	color:gray;
+}
+]]></code>
+</snippet>

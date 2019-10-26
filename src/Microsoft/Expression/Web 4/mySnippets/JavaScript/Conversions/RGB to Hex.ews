@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="This function returns a string containing the Hexadecimal color representation of RGB values." type="Insert">
+  <code><![CDATA[function toHexColor(r,g,b)
+{
+   var hex='#';
+   var hexStr = '0123456789ABCDEF';
+   // R
+   low = r % 16;
+   high = (r - low)/16;
+   hex+=hexStr.charAt(high) + hexStr.charAt(low);
+   // G
+   low = g % 16;
+   high = (g - low)/16;
+   hex+=hexStr.charAt(high) + hexStr.charAt(low);
+   // B
+   low = b % 16;
+   high = (b - low)/16;
+   hex+=hexStr.charAt(high) + hexStr.charAt(low);
+   return hex;
+}]]></code>
+</snippet>

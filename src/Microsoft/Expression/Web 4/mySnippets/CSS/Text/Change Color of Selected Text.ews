@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Change background and text color for selected text." type="Insert">
+  <code><![CDATA[::-moz-selection
+{
+	background:black;
+	color:lime;
+}
+::selection 
+{
+	background:black;
+	color:lime;
+}
+]]></code>
+</snippet>

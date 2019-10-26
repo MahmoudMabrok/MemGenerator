@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript for ..in .. loop" type="Wrap">
+  <code><![CDATA[for (var index in object)
+{
+]]></code>
+  <codeAfter><![CDATA[}]]></codeAfter>
+</snippet>

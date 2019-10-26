@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Set rounded corners for elements" type="Insert">
+  <code><![CDATA[.round_border
+{
+	border-radius:6px;
+	-moz-border-radius:6px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:6px; /* Safari */
+}
+]]></code>
+</snippet>

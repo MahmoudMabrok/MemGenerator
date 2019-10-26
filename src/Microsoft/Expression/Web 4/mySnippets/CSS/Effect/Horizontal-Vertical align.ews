@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Align both horizontally and vertically" type="Insert">
+  <code><![CDATA[.align
+ {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:400px;
+	height:300px;
+	margin-top: -150px; /*set to a negative number 1/2 of height*/
+	margin-left: -200px; /*set to a negative number 1/2 of width*/
+	border: 2px solid blue;
+	background-color: yellow;
+   	text-align: center;
+}
+]]></code>
+</snippet>

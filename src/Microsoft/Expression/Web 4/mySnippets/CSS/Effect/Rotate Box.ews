@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Rotate a box" type="Insert">
+  <code><![CDATA[.rotate
+{
+	width:200px;
+	height:100px;
+	background-color:yellow;
+
+	/* Rotate */
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg); /* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+	-o-transform:rotate(45deg); /* Opera */
+} ]]></code>
+</snippet>

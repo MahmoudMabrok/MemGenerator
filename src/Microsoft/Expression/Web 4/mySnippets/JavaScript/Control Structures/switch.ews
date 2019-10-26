@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript switch statement" type="Insert">
+  <code><![CDATA[switch (expression) {
+    case:
+    break;
+    default:
+}]]></code>
+</snippet>

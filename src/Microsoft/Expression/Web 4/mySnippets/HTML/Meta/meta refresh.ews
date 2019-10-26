@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Uses meta refresh to go to a different page" type="Insert">
+  <code><![CDATA[<meta http-equiv="refresh" content="5;url="@@url@@" />]]></code>
+</snippet>

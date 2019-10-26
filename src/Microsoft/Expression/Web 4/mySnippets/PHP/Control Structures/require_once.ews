@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="PHP require once" type="Insert">
+  <code><![CDATA[require_once('|file.php|');]]></code>
+</snippet>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Opens a new window for the link" type="Insert">
+  <code><![CDATA[<a href="@@@url@@" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">@@message@@</a>]]></code>
+</snippet>

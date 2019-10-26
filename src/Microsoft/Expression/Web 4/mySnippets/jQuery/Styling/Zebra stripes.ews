@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Add zebra-striping to tables and list items" type="Insert">
+  <code><![CDATA[// Place inside document ready block 
+// adds 'oddClass' to odd elements
+$("tr:odd").addClass("oddClass");  
+$("li:odd").addClass("oddClass"); 
+]]></code>
+</snippet>

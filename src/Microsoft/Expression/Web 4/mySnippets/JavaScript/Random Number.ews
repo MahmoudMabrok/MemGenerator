@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Return a random number between 0 and a given value" type="Insert">
+  <code><![CDATA[function randomNumber(limit){
+  return Math.floor(Math.random()*limit);
+}]]></code>
+</snippet>

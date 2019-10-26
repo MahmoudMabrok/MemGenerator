@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript else..." type="Wrap">
+  <code><![CDATA[else
+{
+]]></code>
+  <codeAfter><![CDATA[
+}]]></codeAfter>
+</snippet>

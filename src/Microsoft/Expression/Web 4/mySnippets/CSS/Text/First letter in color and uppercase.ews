@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="The first letter in a P tag is colorized and uppercase" type="Insert">
+  <code><![CDATA[:first-letter
+ {
+	color: red;
+	text-transform:uppercase;
+}]]></code>
+</snippet>

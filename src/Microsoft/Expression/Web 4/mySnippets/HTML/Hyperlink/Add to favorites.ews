@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Method to Add This Page To Your Favorites" type="Insert">
+  <code><![CDATA[<a href="" onDragstart="return false" onClick='window.external.AddFavorite(location.href, document.title);return false'>Add this page to Favorites!</a>]]></code>
+</snippet>

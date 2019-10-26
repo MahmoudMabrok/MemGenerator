@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Method to switch images in the current document" type="Insert">
+  <code><![CDATA[function switchImage(imgName, imgSrc) 
+{
+  if (document.images)
+  {
+    if (imgSrc != "none")
+    {
+      document.images[imgName].src = imgSrc;
+    }
+  }
+}]]></code>
+</snippet>

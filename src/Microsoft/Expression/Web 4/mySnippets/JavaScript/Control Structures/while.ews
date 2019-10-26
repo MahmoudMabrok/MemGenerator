@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript while loop" type="Wrap">
+  <code><![CDATA[while(expression)
+{
+]]></code>
+  <codeAfter><![CDATA[}]]></codeAfter>
+</snippet>

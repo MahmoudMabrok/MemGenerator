@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Check a checkbox" type="Insert">
+  <code><![CDATA[$('input|#checkbox-id|:checkbox').attr("checked","checked")]]></code>
+</snippet>

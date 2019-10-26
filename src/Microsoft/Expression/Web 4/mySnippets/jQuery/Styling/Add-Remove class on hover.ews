@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Add-remove class on hover" type="Insert">
+  <code><![CDATA[$('|#elm|').hover( 
+	 function(){ $(this).addClass('hover') },
+	 function(){ $(this).removeClass('hover')
+ })]]></code>
+</snippet>

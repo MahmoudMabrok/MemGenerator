@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomToolbars>
+	<CustomToolbar Name="Custom" Visible="True" Band="11" BandIndex="0" />
+</CustomToolbars>

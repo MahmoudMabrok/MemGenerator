@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Generic on-document-ready block" type="Insert">
+  <code><![CDATA[$(document).ready(function() {
+  // Handler for .ready() called.
+});]]></code>
+</snippet>

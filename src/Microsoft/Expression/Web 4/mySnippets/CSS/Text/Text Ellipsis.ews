@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Make ellipsis effect for non-displayed text" type="Insert">
+  <code><![CDATA[.ellipsis 
+{ 
+	text-overflow:ellipsis;
+	white-space:nowrap;   
+	width: 100px; 
+	overflow:hidden;
+	border: 1px solid black;   
+	padding: 20px;
+	cursor: pointer;
+}
+]]></code>
+</snippet>

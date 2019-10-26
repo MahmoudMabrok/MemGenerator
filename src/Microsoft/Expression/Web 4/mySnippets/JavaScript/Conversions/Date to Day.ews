@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Add a suffix for the date" type="Insert">
+  <code><![CDATA[function DDtoDay(inputDate)
+{ var dateString = new Array('','st','nd','rd','th','th','th','th','th','th','th','th','th','th','th','th','th','th','th','th','th','st','nd','rd','th','th','th','th','th','th','th','st');
+  returnDate = '';
+  tempDate = parseInt(inputDate);
+  if (tempDate >= 1 && tempDate <= 31)
+  {  returnDate = inputDate + dateString[tempDate]; }
+	return returnDate;
+}]]></code>
+</snippet>

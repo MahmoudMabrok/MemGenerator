@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Convert a hex number to a decimal number" type="Insert">
+  <code><![CDATA[function hexToDec(hex) { return parseInt(hex,16); }]]></code>
+</snippet>

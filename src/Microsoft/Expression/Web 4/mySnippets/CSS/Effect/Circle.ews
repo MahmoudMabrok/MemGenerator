@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="A circle" type="Insert">
+  <code><![CDATA[.circle
+{
+	height: 100px;
+	width:100px;
+	background:pink;
+	border-radius:50px;
+	-moz-border-radius:50px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:50px; /* Safari */
+}
+]]></code>
+</snippet>

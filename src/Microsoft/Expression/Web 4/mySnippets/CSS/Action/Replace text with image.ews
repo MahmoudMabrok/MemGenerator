@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Replace text with image on mouse hover" type="Insert">
+  <code><![CDATA[.replace:hover
+{
+	display:block;
+	width:200px; /* Change to image width */
+	height:200px; /* Change to image height */
+	background:url(images/Tulips.jpg) no-repeat;
+	text-indent:-9999px;
+}
+]]></code>
+</snippet>

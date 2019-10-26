@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="HTML 5 DOCTYPE" type="Insert">
+	<code><![CDATA[<!DOCTYPE html>]]></code>
+</snippet>

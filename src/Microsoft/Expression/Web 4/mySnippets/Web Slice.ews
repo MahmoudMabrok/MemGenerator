@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Web Slice" type="Insert">
+	<code><![CDATA[<style type="text/css">
+    .hslice {
+        width: 320px;
+    }
+    .entry-title
+    {
+        font-size: 1.4em;
+        font-weight:bolder;
+    }
+</style>
+
+<div class="hslice" id="webslice1">
+    <div class="entry-title"></div>
+    <div class="entry-content"></div>
+    <!-- <a rel="entry-content" href="alternate-url.html"></a> -->
+</div>]]></code>
+</snippet>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript writeln" type="Insert">
+  <code><![CDATA[document.writeln(message);]]></code>
+</snippet>

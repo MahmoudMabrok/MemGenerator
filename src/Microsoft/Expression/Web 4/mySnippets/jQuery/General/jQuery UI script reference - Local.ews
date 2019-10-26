@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="jQuery UI script reference" type="Insert">
+  <code><![CDATA[<script src="|jquery-ui.min.js|" type="text/javascript"></script>]]></code>
+</snippet>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Prepend options to a form select element" type="Insert">
+  <code><![CDATA[$("|#select-id|").prepend("<option value='0'>First option</option>");]]></code>
+</snippet>

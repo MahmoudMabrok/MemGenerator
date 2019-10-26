@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Outline text" type="Insert">
+  <code><![CDATA[.outline
+{	
+	text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;  
+	color: white; 
+}
+]]></code>
+</snippet>

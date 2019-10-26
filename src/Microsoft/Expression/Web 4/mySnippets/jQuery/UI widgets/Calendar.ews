@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="jQuery UI Calendar widget" type="Insert">
+  <code><![CDATA[<div class="calendar-containerr">
+	<p>Date: <input id="datepicker" type="text"></p>
+</div>
+<script>
+	$(function() {
+		$( "#datepicker" ).datepicker();
+	});
+</script> ]]></code>
+</snippet>

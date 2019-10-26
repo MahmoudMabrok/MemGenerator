@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Get the value of a selected form select element" type="Insert">
+  <code><![CDATA[$("|#select-id|").val()]]></code>
+</snippet>

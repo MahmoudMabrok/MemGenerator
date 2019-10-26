@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript with statement" type="Insert">
+  <code><![CDATA[with(object)
+{
+
+}]]></code>
+</snippet>

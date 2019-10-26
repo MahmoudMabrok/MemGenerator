@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Select all input elements" type="Insert">
+  <code><![CDATA[$(":input")]]></code>
+</snippet>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Shadow for text" type="Insert">
+  <code><![CDATA[.textShadow
+{
+	text-shadow: 2px 2px #ff0000;
+}]]></code>
+</snippet>

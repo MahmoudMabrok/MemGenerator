@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Highlight a label when the corresponding input is in focus" type="Insert">
+  <code><![CDATA[$("form:input").focus(function() {
+	$("label[for='"+this.id + "']").addClass("|focusClass|");
+	}).blur(function() {
+	$("label").removeClass("focusClass");
+});]]></code>
+</snippet>

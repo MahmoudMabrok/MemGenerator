@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Call alert function in js" type="Insert">
+  <code><![CDATA[alert(message);]]></code>
+</snippet>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="META keywords" type="Insert">
+  <code><![CDATA[<meta name="keywords" content="|" />]]></code>
+</snippet>

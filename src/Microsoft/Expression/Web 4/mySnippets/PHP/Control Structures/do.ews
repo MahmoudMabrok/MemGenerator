@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Code snippet for a do...while loop" type="Wrap">
+  <code><![CDATA[do {
+]]></code>
+  <codeAfter><![CDATA[
+} while (|false|);
+]]></codeAfter>
+</snippet>

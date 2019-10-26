@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="IE=EmulateIE7" type="Insert">
+	<code><![CDATA[<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />]]></code>
+</snippet>

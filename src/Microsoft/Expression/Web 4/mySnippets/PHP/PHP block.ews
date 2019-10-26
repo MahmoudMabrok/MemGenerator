@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="" type="Wrap">
+  <code><![CDATA[<?php
+
+]]></code>
+  <codeAfter><![CDATA[?>
+]]></codeAfter>
+</snippet>

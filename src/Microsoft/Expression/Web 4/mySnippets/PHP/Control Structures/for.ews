@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="PHP for loop" type="Wrap">
+  <code><![CDATA[for ($i = 0; $i < $max; $i++) 
+{
+]]></code>
+  <codeAfter><![CDATA[
+}
+]]></codeAfter>
+</snippet>

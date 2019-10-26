@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Get the value of an input element" type="Insert">
+  <code><![CDATA[$("|#input-id|").val()]]></code>
+</snippet>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Convert a decimal number to a hex number" type="Insert">
+  <code><![CDATA[function decToHex(dec)
+{
+  var hexStr = "0123456789ABCDEF";
+  var low = dec % 16;
+  var high = (dec - low)/16;
+  hex = "" + hexStr.charAt(high) + hexStr.charAt(low);
+  return hex;
+}]]></code>
+</snippet>

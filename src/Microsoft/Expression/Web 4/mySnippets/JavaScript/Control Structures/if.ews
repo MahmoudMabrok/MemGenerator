@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet description="Javascript if" type="Wrap">
+  <code><![CDATA[if(true)
+{
+]]></code>
+  <codeAfter><![CDATA[
+}]]></codeAfter>
+</snippet>
