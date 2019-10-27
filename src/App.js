@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
-import {Meme} from './components/Meme';
+import Meme from './components/Meme';
 
 import './App.css'
 import { Footer } from './components/Footer';
 
+
+import { OneImageMem } from './components/OneImageMem';
 class App extends Component {
   render() {
     return (
@@ -15,6 +17,7 @@ class App extends Component {
           </div>
         </Navbar>
         <Meme/>
+        
         <Footer/>
 
       </div>

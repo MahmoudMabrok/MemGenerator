@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, InputGroup, InputGroupText, InputGroupAddon, Input, FormGroup, Label } from 'reactstrap';
 let Img = require('react-image'); 
 
-export class OneImageMem extends React.Component {
+export  class OneImageMem extends React.Component {
     constructor(props) {
         super();
 

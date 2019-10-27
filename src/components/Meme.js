@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row } from 'reactstrap';
 import classnames from 'classnames'
 
-import  {OneImageMem}  from './components/OneImageMem';
-
-import  {TwoImageMem}  from './components/TwoImageMem';
+import { OneImageMem } from './components/../OneImageMem';
+import { TwoImageMem } from './components/../TwoImageMeme';
 
 const Meme = (props) => {
     const [activeTab, setActiveTab] = useState('1');
@@ -40,7 +39,9 @@ const Meme = (props) => {
             </Row>
           </TabPane>
           <TabPane tabId="2">
-           <TwoImageMem/>
+          <Row>
+            <TwoImageMem />
+            </Row>
           </TabPane>
         </TabContent>
       </div>
