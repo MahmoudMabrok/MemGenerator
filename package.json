@@ -4,6 +4,7 @@
   "homepage": "https://mahmoudmabrok.github.io/MemGenerator/",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "custom-react-scripts": "0.2.2",

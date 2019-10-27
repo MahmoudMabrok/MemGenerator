@@ -5,8 +5,6 @@ import Meme from './components/Meme';
 import './App.css'
 import { Footer } from './components/Footer';
 
-
-import { OneImageMem } from './components/OneImageMem';
 class App extends Component {
   render() {
     return (

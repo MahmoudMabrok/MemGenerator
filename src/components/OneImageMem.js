@@ -1,15 +1,16 @@
 import React from 'react';
 import { Button, InputGroup, InputGroupText, InputGroupAddon, Input, FormGroup, Label } from 'reactstrap';
-let Img = require('react-image'); 
+let Img = require('react-image');
 
-export  class OneImageMem extends React.Component {
+export class OneImageMem extends React.Component {
     constructor(props) {
         super();
 
         this.state = {
-            top: "",
+            top: "AA",
             bottom: "",
-            image: ""
+            image: "assets/nn.jpg",
+            isSelected: false
         }
 
         this.addTopState = this.addTopState.bind(this);
@@ -35,17 +36,35 @@ export  class OneImageMem extends React.Component {
         this.setState({
             image: e.target.value
         })
+
+        const selectedFile = e.target.files[0];
+        console.log('Selected File', selectedFile);
+        var data = new FormData();
+        data.append('file', selectedFile, selectedFile.name);
+        console.log('Form Data', data);
+
+        /*
+        
+        var req = axios.post ('url', formdata or binary , name , {
+            onUploadProgress : preogessEvent  => {
+                     console.log('Form Data', data);
+            }
+        } ).then(ress =>{
+
+        } ); 
+        
+        */
     }
 
     generate() {
         console.log(this.state);
-        
+
     }
 
 
 
     render() {
-       
+
         return (
             <div className="container">
 
@@ -71,9 +90,15 @@ export  class OneImageMem extends React.Component {
 
                     </FormGroup>
 
-                    <Button color="primary" size="lg" block onClick={this.generate}> generate</Button>
+                    <Button className = "item" color="primary" size="lg" block onClick={this.generate}> generate</Button>
 
-                    <Img src={this.state.image} />
+                    <div className="meme">
+                        <Img src={this.state.image} />
+                        <h2 className = "top">{this.state.top}</h2>
+                        <h2 className = "bottom">{this.state.bottom}</h2>
+
+                    </div>
+
 
                 </div>
 

@@ -7,10 +7,12 @@ export class TwoImageMem extends React.Component {
         super();
 
         this.state = {
-            top: "",
+            top: "AA",
             bottom: "",
-            image1: "",
-            image2: ""
+            image1: "assets/nn.jpg",
+            image2: "",
+            isSelected: false,
+           
         }
 
         this.addTopState = this.addTopState.bind(this);
@@ -84,9 +86,15 @@ export class TwoImageMem extends React.Component {
 
                     </FormGroup>
 
-                    <Button color="primary" size="lg" block onClick={this.generate}> generate</Button>
+                    <Button className="item" color="primary" size="lg" block onClick={this.generate}> generate</Button>
 
-                    <Img src={this.state.image} />
+                    <div className="meme">
+                        <Img src={this.state.image1} />
+                        <h2 className="top">{this.state.top}</h2>
+                        <h2 className="bottom">{this.state.bottom}</h2>
+
+                    </div>
+
 
                 </div>
 
